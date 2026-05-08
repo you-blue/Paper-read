@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/.Note/Study Note/**)",
+      "Read(//d/.Note/Study Note/Papers/**)",
+      "Bash(pip list *)",
+      "Bash(py --version)",
+      "Bash(where python *)",
+      "Bash(dir \"D:\\\\.Note\\\\Study Note\\\\Papers\\\\\" /b 2>nul & echo --- & dir \"D:\\\\.Note\\\\Study Note\\\\\" /b 2>nul)",
+      "Bash(type \"D:\\\\.Note\\\\Study Note\\\\CLAUDE.md\" 2>nul)",
+      "Bash(dir \"D:\\\\.Note\\\\Study Note\\\\Papers\\\\\" /b 2>nul)",
+      "Bash(C:\\\\Users\\\\kuailepai\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe --version)",
+      "Bash(C:\\\\Users\\\\kuailepai\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe -m pip list)",
+      "Bash(/c/Users/kuailepai/AppData/Local/Microsoft/WindowsApps/python.exe --version)",
+      "Bash(\"/c/Users/kuailepai/AppData/Local/Microsoft/WindowsApps/python.exe\" -m pip list)",
+      "Bash(\"/c/Users/kuailepai/AppData/Local/Microsoft/WinGet/Packages/oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe/poppler-25.07.0/Library/bin/pdftoppm.exe\" --version)",
+      "Bash(\"/c/Users/kuailepai/AppData/Local/Microsoft/WindowsApps/python.exe\" --version)",
+      "Bash(pip --version)",
+      "Bash(conda --version)",
+      "Bash(where conda *)"
+    ],
+    "additionalDirectories": [
+      "D:\\GitHub Project\\Paper-read"
+    ]
+  }
+}

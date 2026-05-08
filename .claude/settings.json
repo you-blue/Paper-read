@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Program Files/WindowsApps/PythonSoftwareFoundation.PythonManager_26.1.240.0_x64__qbz5n2kfra8p0/python.exe\" --version)",
+      "Bash(python -c \"import ast; import glob; files = glob.glob\\('d:/GitHub Project/Paper-read/**/*.py', recursive=True\\); [ast.parse\\(open\\(f, encoding='utf-8'\\).read\\(\\)\\) and print\\(f'✓ {f.split\\(\\\\\"/\\\\\"\\)[-1]}'\\) for f in files]; print\\('All syntax OK'\\)\")",
+      "Bash(/c/Users/kuailepai/AppData/Local/Microsoft/WindowsApps/python -c \"print\\('hello'\\)\")",
+      "Bash(/c/Users/kuailepai/AppData/Local/Microsoft/WindowsApps/python -c ' *)",
+      "Bash(python -m pip list)",
+      "Bash(python -m pip install -r requirements.txt)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from PyInstaller.utils.hooks import check_requirements; print\\('hooks ok'\\)\")",
+      "Bash(python -m PyInstaller --onefile --noconsole --name \"PDFPaperSummarizer\" --add-data \"config.yaml;.\" --add-data \"src;src\" --add-data \"utils;utils\" --hidden-import \"customtkinter\" --hidden-import \"PIL._tkinter_finder\" --hidden-import \"anthropic\" --hidden-import \"openai\" --hidden-import \"httpx\" --hidden-import \"yaml\" --hidden-import \"PIL\" --hidden-import \"PIL.Image\" --collect-all \"customtkinter\" \"main.py\")",
+      "Bash(rm -rf \"d:/GitHub Project/Paper-read/dist\")",
+      "Bash(python -m PyInstaller --onefile --noconsole --name \"PDFPaperSummarizer\" --add-data \"src;src\" --add-data \"utils;utils\" --hidden-import \"customtkinter\" --hidden-import \"PIL._tkinter_finder\" --hidden-import \"anthropic\" --hidden-import \"openai\" --hidden-import \"httpx\" --hidden-import \"yaml\" --hidden-import \"PIL\" --hidden-import \"PIL.Image\" --collect-all \"customtkinter\" \"main.py\")",
+      "Bash(git rm *)",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git ls-tree *)",
+      "Bash(git checkout *)"
+    ]
+  }
+}

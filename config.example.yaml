@@ -1,0 +1,62 @@
+gui:
+  font_scale: 1.0
+  recent_files: []
+  theme: light
+  window_height: 720
+  window_width: 850
+llm:
+  anthropic:
+    api_key: ''
+    max_tokens: 8192
+    model: claude-sonnet-4-20250514
+    temperature: 0.3
+  custom:
+    api_key: ''
+    base_url: ''
+    max_tokens: 8192
+    model: ''
+    temperature: 0.3
+  deepseek:
+    api_key: 'your-deepseek-api-key'
+    base_url: https://api.deepseek.com
+    max_tokens: 8192
+    model: deepseek-chat
+    temperature: 0.3
+  default_provider: deepseek
+  ollama:
+    base_url: http://localhost:11434
+    keep_alive: 5m
+    model: llama3.2-vision:latest
+    options:
+      num_ctx: 8192
+      num_predict: 4096
+  openai:
+    api_key: ''
+    max_tokens: 4096
+    model: gpt-4o
+    temperature: 0.3
+  qwen:
+    api_key: ''
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    max_tokens: 8192
+    model: qwen-max
+    temperature: 0.3
+output:
+  create_subdir: false
+  filename_template: '{title_slug}.md'
+  language: zh
+  tags:
+  - paper
+  - summary
+  vault_path: '/path/to/your/vault'
+  yaml_frontmatter: true
+pdf:
+  cleanup_temp: true
+  detection:
+    always_render_first_page: true
+    low_text_threshold: 100
+    math_pattern_threshold: 3
+  dpi: 200
+  hybrid_mode: true
+  poppler_path: '/path/to/poppler/bin'
+  temp_dir: .cache/temp_images
